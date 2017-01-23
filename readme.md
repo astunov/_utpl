@@ -23,8 +23,14 @@
 # Хотелки
   * sync HYBRIS ecosystem ?? Webpack dev server
   * --watch (Gulp\webpack\nodemon)
-  * SCSS linter
-  * IMG build
+  * SCSS
+    * Linter
+    * SourceMaps
+    * Prefix
+  * IMG
+    * Build
+    * Optimize
+  * SVG
 
 # PostCSS
 
