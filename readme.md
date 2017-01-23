@@ -11,8 +11,17 @@
       За основу взят конфиг от [airbnb](https://github.com/johnie/eslint-config-airbnb-flow). 
   * [Flow](https://flowtype.org/)
 
-# Task
+# Tasks
 
   * `npm run build` webpack
   * `npm run eslint`
   * `npm run flow`
+
+# Хотелки
+  * Webpack dev server
+  * sync vs HYBRIS ecosystem
+  * --watch (Gulp\webpack\nodemoon)
+  * SCSS build
+  * SCSS linter
+  * IMG build
+  * Ava test
