@@ -1,4 +1,5 @@
 // @flow
+import '../scss/main.scss';
 
 function  whatDoesTheLintSay( ) {
    empty = 0
@@ -9,4 +10,3 @@ const lol = '5';
 
 var str: number = 'hello world!';
 console.log(str);
-

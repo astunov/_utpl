@@ -10,18 +10,18 @@
   * [.eslintrc.json](http://eslint.org/), .eslintignore
       За основу взят конфиг от [airbnb](https://github.com/johnie/eslint-config-airbnb-flow). 
   * [Flow](https://flowtype.org/)
+  * [Ava](https://github.com/avajs/ava)
 
 # Tasks
 
-  * `npm run build` webpack
+  * `npm run dev` webpack dev
+  * `npm run prod` webpack prod
   * `npm run eslint`
   * `npm run flow`
+  * `npm run test` ava
 
 # Хотелки
-  * Webpack dev server
-  * sync vs HYBRIS ecosystem
-  * --watch (Gulp\webpack\nodemoon)
-  * SCSS build
+  * sync HYBRIS ecosystem ?? Webpack dev server
+  * --watch (Gulp\webpack\nodemon)
   * SCSS linter
   * IMG build
-  * Ava test
