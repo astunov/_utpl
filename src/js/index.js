@@ -1,5 +1,5 @@
 // @flow
-import '../scss/main.scss';
+import '../style/main.scss';
 
 function  whatDoesTheLintSay( ) {
    empty = 0
