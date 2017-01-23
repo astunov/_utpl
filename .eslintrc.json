@@ -1,0 +1,11 @@
+{
+  "extends": ["airbnb", "airbnb-flow"],
+  "installedESLint": true,
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "rules": {
+    "comma-dangle": 0
+  }
+}
