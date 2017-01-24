@@ -22,15 +22,28 @@
 
 # Хотелки
   * sync HYBRIS ecosystem ?? Webpack dev server
-  * --watch (Gulp\webpack\nodemon)
+  * --watch (Gulp\webpack\nodemon
+  * Gulp for micro tasks
   * SCSS
-    * Linter
+    * Linter 
     * SourceMaps
-    * Prefix
+  * PostCSS
+    * [postscss](https://github.com/postcss/postcss-scss)
+    * [stylelint](https://github.com/stylelint/stylelint)
+    * [doiuse](https://github.com/anandthakker/doiuse)
   * IMG
     * Build
     * Optimize
+    * [webpack-spritesmith] https://www.npmjs.com/package/webpack-spritesmith
   * SVG
+    * svg wepback
 
-# PostCSS
+# CSS Optimization
+* [cssnano](http://cssnano.co/) — css-loader contains by default VS [CSSO](https://github.com/css/csso)
+
+* min raw 885kb
+* unmin raw 1029kb
+* cssnano 766kb
+* csso 769kb
+* cssnano + csso 755kb
 
