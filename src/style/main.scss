@@ -1,6 +1,15 @@
+@import 'oldcss/min';
+
 $font-size: 20px;
 
 body {
   font-family: Arial;
   font-size: $font-size;
 }
+
+:fullscreen a {
+    display: flex
+}
+.LOL {
+    font-size: 20px;
+  }

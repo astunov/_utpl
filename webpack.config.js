@@ -1,5 +1,3 @@
-'use strict';
-
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
@@ -20,7 +18,11 @@ const config = {
         test: /\.scss$/,
         loader: ExtractTextPlugin.extract({
           fallbackLoader: 'style-loader',
-          loader: ['css-loader', 'sass-loader']
+          loader: [
+            'css-loader?minimize=true',
+            'postcss-loader',
+            'sass-loader'
+          ]
         })
       }
     ]

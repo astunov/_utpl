@@ -9,7 +9,8 @@
     "prod": "set NODE_ENV=production && npm run clean && webpack -p",
     "flow": "flow",
     "eslint": "eslint src/js/index.js",
-    "test": "ava"
+    "test": "ava",
+    "stylelint": "stylelint "
   },
   "author": "",
   "license": "ISC",
@@ -19,7 +20,9 @@
     "gulp": "^3.9.1",
     "node-sass": "^4.3.0",
     "postcss-scss": "^0.4.0",
-    "sass-loader": "^4.1.1"
+    "sass-loader": "^4.1.1",
+    "stylelint": "^7.7.1",
+    "stylelint-config-sass-guidelines": "^1.1.1",
   },
   "devDependencies": {
     "babel-core": "^6.22.1",
@@ -30,6 +33,7 @@
     "eslint": "^3.14.0",
     "eslint-config-airbnb-flow": "^1.0.2",
     "flow-bin": "^0.38.0",
+    "postcss-loader": "^1.2.2",
     "rimraf": "^2.5.4",
     "style-loader": "^0.13.1",
     "webpack": "2.2.0"
