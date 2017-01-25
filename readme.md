@@ -34,7 +34,7 @@
   * IMG
     * Build
     * Optimize
-    * [webpack-spritesmith] https://www.npmjs.com/package/webpack-spritesmith
+    * [webpack-spritesmith] (https://www.npmjs.com/package/webpack-spritesmith)
   * SVG
     * svg wepback
 
@@ -46,4 +46,3 @@
 * cssnano 766kb
 * csso 769kb
 * cssnano + csso 755kb
-
