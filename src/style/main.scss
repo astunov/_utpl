@@ -1,4 +1,4 @@
-@import 'oldcss/min';
+// @import 'oldcss/min';
 
 $font-size: 20px;
 
@@ -13,3 +13,21 @@ body {
 .LOL {
     font-size: 20px;
   }
+
+:nth-child(n)::before {
+    flex: 1;
+    opacity: .5;
+    height: 2.5rem;
+    width: 10vmin;
+}
+
+
+.foo { flex: 1; }
+.bar { flex: 1 1; }
+.foz { flex: 1 1 0; }
+.baz { flex: 1 1 0px; }
+
+.foo { flex: 1; }
+
+
+.foo { flex: 1 0 calc(1vw - 1px); }

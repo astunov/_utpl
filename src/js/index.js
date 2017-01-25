@@ -1,12 +1,13 @@
 // @flow
 import '../style/main.scss';
 
+// eslint
 function  whatDoesTheLintSay( ) {
    empty = 0
     return empty
 }
 
-const lol = '5';
-
+// flow lint
 var str: number = 'hello world!';
-console.log(str);
+
+

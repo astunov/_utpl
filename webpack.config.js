@@ -19,7 +19,7 @@ const config = {
         loader: ExtractTextPlugin.extract({
           fallbackLoader: 'style-loader',
           loader: [
-            'css-loader?minimize=true',
+            'css-loader?minimize=false',
             'postcss-loader',
             'sass-loader'
           ]
